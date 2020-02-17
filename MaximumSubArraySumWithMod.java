@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class MaximumSubArraySum{
+public class MaximumSubArraySumWithMod{
 
 static long maximumSum(long[] a, long m) {
         long[] sums = buildSums(a, m);
